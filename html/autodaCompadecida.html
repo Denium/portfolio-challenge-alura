@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="Utf-8">
+    <title>Auto da Compadecida</title>
+    <meta name="description" content="Video - A-Frame">
+    <script src="../js/dist.js"></script>
+    <script src="../js/play-on-click.js"></script>
+    <script src="../js/hide-on-play.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <video id="autoDaCompadecida" preload="auto"
+               src="../Videos/O AUTO DA COMPADECIDA 2000 Trailer-[onlinevideoconverter.com].mp4"
+               width="160" height="90" autoplay loop="true"
+               crossOrigin="anonymous"></video>
+      </a-assets>
+
+      <a-entity material="shader: flat; src: #autoDaCompadecida"
+                geometry="primitive: plane; width: 160; height: 84;"
+                position="0 0 -46.4"
+                rotation="0 0 0"
+                play-on-click
+                visible="true">
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
