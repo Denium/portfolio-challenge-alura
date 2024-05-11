@@ -500,6 +500,13 @@ input:not(:placeholder-shown) + label {
   color: #555;
 }
 
+.span-required{
+  display: none;
+  font-size: 12px;
+  margin: 3px 0 0 1px;
+  color: #e63636;
+}
+
 .mensagem:focus + label,
 input:not(:placeholder-shown) + label {
   top: -20px;
@@ -705,5 +712,144 @@ label {
     background-color: var(--terciary-color);
     width: 167px;
     font-weight: 600;
+  }
+
+  .container_formacao {
+    margin-bottom: -17%;
+  }
+
+  .Title_formacao {
+    font-size: 22px;
+  }
+
+  .list_formacoes {
+    width: 345px;
+    height: 144px;
+  }
+
+  .ImgLogoFormacao {
+    width: 139px;
+    margin-top: -119px;
+  }
+
+  .ImgLogoTec {
+    width: 30px;
+    height: 37px;
+  }
+
+  .cards_formacao {
+    gap: 71.5px;
+    margin-bottom: 134px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .titulo_descricao {
+    align-items: center;
+    position: absolute;
+    margin-bottom: -93px;
+    font-size: 16px;
+  }
+
+  .title_experiencia {
+    font-size: 22px;
+  }
+
+  .list_experiencia {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .list_experiencia2 {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .ImgExperiencia {
+    width: 296px;
+    height: 194px;
+  }
+
+  .ImgExperiencia-reverse {
+    width: 296px;
+    height: 194px;
+  }
+
+  .lista_titulo_experiencia {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .lista_titulo_experiencia2 {
+    margin-bottom: 40px;
+    padding-left: 39px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .lista_descricao_experiencia {
+    font-size: 14px;
+  }
+
+  .lista_descricao_experiencia2 {
+    font-size: 14px;
+  }
+
+  .button_descricao_experiencia {
+    height: 46px;
+  }
+
+  .buttonRepositorio {
+    width: 108px;
+    height: 40px;
+    padding: 0px 8px;
+    font-size: 14px;
+  }
+
+  .buttonVerDemo {
+    width: 108px;
+    height: 40px;
+    padding: 0px 8px;
+    font-size: 14px;
+  }
+
+  .section_contato {
+    flex-direction: column;
+    width: 110vw;
+  }
+
+  .container_contato {
+    gap: 0;
+  }
+
+  .Img_Contato {
+    display: none;
+  }
+
+  footer {
+    margin: 37px -143px;
+  }
+
+  .Title_contato {
+    font-size: 22px;
+  }
+
+  .descricao_contato {
+    width: 143%;
+    font-size: 16px;
+  }
+
+  form {
+    width: 165%;
+  }
+
+  .buttonVerMensagem {
+    margin-top: 32px;
+    width: 171px;
+    height: 48px;
+  }
+
+  .footer_class {
+    width: 102.3vw;
   }
 }
