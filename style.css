@@ -450,7 +450,6 @@ p {
   display: flex;
   flex-direction: column;
   width: 50%;
-  gap: 40px;
 }
 
 footer {
@@ -466,14 +465,12 @@ footer {
   justify-content: flex-start;
   font-size: var(--title-size38px);
   font-weight: 600;
-  margin-bottom: 4%;
 }
 
 .descricao_contato {
   display: flex;
   align-items: center;
   font-weight: 400;
-  margin-bottom: 4%;
   width: 107%;
 }
 
@@ -559,7 +556,7 @@ label {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 44em;
+  width: 38em;
 }
 
 .buttonVerMensagem {
@@ -570,7 +567,7 @@ label {
   background-color: #2a7ae4;
   color: var(--terciary-color);
   border: 1px solid transparent;
-  margin-top: 1%;
+  margin-top: 12%;
 }
 
 .buttonVerMensagem:hover {
