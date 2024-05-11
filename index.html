@@ -14,10 +14,10 @@
   <header>
     <h3 class="nome"><img src="./img/auto_awesome_black_24dp 1.svg" alt="Icones de brilhos">Fulano de tal</h3>
     <nav class="nav_bar">
-      <a class="lista_nav" href="">Sobre mim</a>
-      <a class="lista_nav"  href="">Skills</a>
-      <a class="lista_nav"  href="">Hobbies</a>
-      <a class="lista_nav"  href="">Formação</a>
+      <a class="lista_nav" href=".column_about_me">Sobre mim</a>
+      <a class="lista_nav"  href="#section_skills">Skills</a>
+      <a class="lista_nav"  href="#section_skills">Hobbies</a>
+      <a class="lista_nav"  href="#section_formacao">Formação</a>
       <a class="lista_nav" href="">Projetos</a>
       <a href=""><strong class="contato_email_nav">contato@fulano.com</strong></a>
     </nav>
@@ -123,8 +123,8 @@
           <span class="lista_titulo_experiencia">Decodificador de texto<span class="lista_descricao_experiencia">
               Challenge Alura Codificador <div class="button_descricao_experiencia"><button
                   class="buttonRepositorio">Repositório</span></button><button class="buttonVerDemo">Ver demo</button>
-    </div>
-    </span></li>
+          </span>
+        </li>
 
     <li class="list_experiencia2"><img class="ImgExperiencia-reverse " src="./img/Forca.svg" alt="">
       <span class="lista_titulo_experiencia2">Jogo criado com HTML, CSS e JavaScript<span
@@ -144,7 +144,7 @@
     </li>
 
     <li class="list_experiencia2"><img class="ImgExperiencia" src="./img/forca2.svg" alt="">
-      <span class="lista_titulo_experiencia2">Jogo criado com HTML, CSS e JavaScript<span
+      <span class="lista_titulo_experiencia2">Jogo criado com HTML e JavaScript<span
           class="lista_descricao_experiencia">
           Challenge Oracle <div class="button_descricao_experiencia"><button
               class="buttonRepositorio">Repositório</button><button class="buttonVerDemo">Ver demo</button></div>
@@ -165,15 +165,18 @@
           Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
 
         <div class="input-container">
-          <form>
+          <form id="form">
             <label for="nome" class="nome_contato"></label><br>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
-
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" class="required" oninput="nameValidate()"><br><br>
+            <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+          
             <label for="email" class="email_contato"></label><br>
-            <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
+            <input type="email" id="email" name="email" class="required" oninput="emailValidate()" placeholder="Digite seu email"><br><br>
+            <span class="span-required">Digite um email válido</span>
 
-            <label for="assunto" class="assunto_contato"></label><br>
-            <input type="assunto" id="assunto" name="assunto" placeholder="Assunto"><br><br>
+            <label for="assunto" class="assunto_contato "></label><br>
+            <input type="assunto" id="assunto" name="assunto" class="required" oninput="assuntoValidate()" placeholder="Assunto"><br><br>
+            <span class="span-required">Assunto deve ter no mínimo 5 caracteres</span>
           </form>
 
         </div>
@@ -183,7 +186,9 @@
             placeholder="Digite sua mensagem aqui..."></textarea><br>
         </form>
 
-        <button class="buttonVerMensagem">Enviar Mensagem</button>
+        <form id="myForm">
+          <button id="submitButton" type="submit" class="buttonVerMensagem">Enviar Mensagem</button>
+        </form>
       </div>
 
       <div class="container_img_contato">
