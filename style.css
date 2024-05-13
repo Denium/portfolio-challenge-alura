@@ -617,7 +617,7 @@ label {
     width: 100%;
   } */
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   body {
     margin-left: 4%;
     margin-right: 4%;
@@ -824,7 +824,9 @@ label {
   }
 
   footer {
-    margin: 37px -143px;
+    margin: 37px -82px;
+    justify-content: center;
+    }
   }
 
   .Title_contato {
