@@ -619,7 +619,7 @@ label {
 
 @media (max-width: 414px) {
   body {
-    margin-left: 4%;
+    margin-left: 8%;
     margin-right: 4%;
     overflow-x: hidden;
   }
@@ -849,6 +849,6 @@ label {
   }
 
   .footer_class {
-    width: 102.3vw;
+    width: 106.3vw;
   }
 }
