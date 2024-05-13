@@ -441,7 +441,7 @@ p {
 .section_contato {
   display: flex;
   background-color: var(--secondary-color);
-  width: 107vw;
+  width: 112vw;
   margin-left: -15.4%;
   margin-right: -6%;
 }
@@ -619,7 +619,7 @@ label {
 
 @media (max-width: 414px) {
   body {
-    margin-left: 8%;
+    margin-left: 6%;
     margin-right: 4%;
     overflow-x: hidden;
   }
