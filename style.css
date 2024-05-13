@@ -497,7 +497,7 @@ input:not(:placeholder-shown) + label {
   color: #555;
 }
 
-.span-required{
+.span-required {
   display: none;
   font-size: 12px;
   margin: 3px 0 0 1px;
@@ -740,7 +740,7 @@ label {
     margin-top: 0;
     padding-top: 0;
   }
-  
+
   .titulo_descricao {
     align-items: center;
     position: absolute;
@@ -825,8 +825,8 @@ label {
 
   footer {
     margin: 37px -82px;
+    align-items: center;
     justify-content: center;
-    }
   }
 
   .Title_contato {
