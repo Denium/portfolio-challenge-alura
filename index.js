@@ -9,6 +9,7 @@ form.addEventListener('submit', (event) =>{
   nameValidate();
   emailValidate();
   assuntoValidate();
+  location.reload();
 });
 
 function setError(index){
@@ -44,5 +45,3 @@ function assuntoValidate(){
     removeError(2);
   }
 }
-
-
