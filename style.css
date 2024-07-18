@@ -411,7 +411,7 @@ p {
   color: var(--terciary-color);
 }
 
-#aTextDecorationRepositorio{
+#aTextDecorationRepositorio {
   text-decoration: none;
   color: #2a7ae4;
 }
@@ -436,7 +436,7 @@ p {
   border: #2a7ae4 1px solid;
 }
 
-#aTextDecorationVerDemo{
+#aTextDecorationVerDemo {
   text-decoration: none;
   color: white;
 }
@@ -511,8 +511,8 @@ input {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-input:focus + label,
-input:not(:placeholder-shown) + label {
+input:focus+label,
+input:not(:placeholder-shown)+label {
   top: -20px;
   left: 0;
   font-size: 12px;
@@ -526,8 +526,8 @@ input:not(:placeholder-shown) + label {
   color: #e63636;
 }
 
-.mensagem:focus + label,
-input:not(:placeholder-shown) + label {
+.mensagem:focus+label,
+input:not(:placeholder-shown)+label {
   top: -20px;
   left: 0;
   font-size: 12px;
@@ -624,6 +624,7 @@ label {
   margin-left: -9.6%;
   margin-right: -5.9%;
 }
+
 .br_center {
   display: flex;
   justify-content: center;
@@ -638,6 +639,45 @@ label {
   .pAboutMe {
     width: 100%;
   } */
+
+@media (max-width: 1760px)
+
+/* and  (max-width: 374px)*/
+  {
+  .cards_formacao {
+    gap: 83px;
+  }
+
+  .list_experiencia2 {
+    gap: 0px;
+    flex-wrap: nowrap;
+    margin-right: 76px;
+  }
+}
+
+@media (max-width: 1412px) {
+  .cards_experiencia {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list_experiencia {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list_experiencia2 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .lista_titulo_experiencia2 {
+    margin-top: 31px;
+    text-align: center;
+    align-items: center;
+  }
+}
 
 @media (max-width: 454px) {
   body {
@@ -737,6 +777,14 @@ label {
     margin-bottom: -17%;
   }
 
+  .cards_formacao {
+    gap: 71.5px;
+    margin-bottom: 134px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 15px
+  }
+
   .Title_formacao {
     font-size: 22px;
   }
@@ -754,13 +802,6 @@ label {
   .ImgLogoTec {
     width: 30px;
     height: 37px;
-  }
-
-  .cards_formacao {
-    gap: 71.5px;
-    margin-bottom: 134px;
-    margin-top: 0;
-    padding-top: 0;
   }
 
   .titulo_descricao {
@@ -782,6 +823,7 @@ label {
   .list_experiencia2 {
     flex-direction: column;
     gap: 0px;
+    margin-right: 0;
   }
 
   .ImgExperiencia {
@@ -797,13 +839,16 @@ label {
   .lista_titulo_experiencia {
     font-size: 16px;
     margin-bottom: 40px;
+    margin-top: 13px;
+    align-items: center;
+    text-align: center;
   }
 
   .lista_titulo_experiencia2 {
     margin-bottom: 40px;
-    padding-left: 39px;
     font-weight: 700;
     font-size: 16px;
+    margin-top: 13px;
   }
 
   .lista_descricao_experiencia {
