@@ -20,7 +20,7 @@ a {
 
 body {
   margin-left: 8%;
-  margin-right: 3%;
+  margin-right: 8%;
   background-color: var(--primary-color);
   font-family: "Raleway";
   overflow-x: hidden;
@@ -39,11 +39,6 @@ header {
   gap: 10px;
   margin-right: auto;
   font-weight: 600;
-}
-
-#nome_estilizado {
-  color: rgb(127, 126, 126);
-  font-weight: 700;
 }
 
 .nav_bar {
@@ -223,7 +218,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin-top: 8%;
-  margin-left: -14.5%;
+  margin-left: -10%;
   margin-right: -9.5%;
   padding-bottom: 4%;
 }
@@ -235,7 +230,6 @@ p {
   justify-content: space-evenly;
   flex-direction: column;
   margin-bottom: 4%;
-  flex-wrap: wrap;
 }
 
 .Title_formacao {
@@ -336,7 +330,6 @@ p {
   flex-direction: row;
   align-items: center;
   gap: 31px;
-  margin-bottom: 30px;
 }
 
 .list_experiencia2 {
@@ -345,7 +338,6 @@ p {
   align-items: center;
   gap: 160px;
   flex-wrap: wrap;
-  margin-bottom: 30px;
 }
 
 .lista_titulo_experiencia {
@@ -393,7 +385,6 @@ p {
 }
 
 .buttonRepositorio {
-  text-decoration: none;
   width: 140px;
   height: 60px;
   padding: 0px 11px;
@@ -404,20 +395,13 @@ p {
 }
 
 .buttonRepositorio:hover {
-  text-decoration: none;
   background-color: #2a7ae4;
   transition: all 0.5s ease;
   transition-delay: 0.2s;
   color: var(--terciary-color);
 }
 
-#aTextDecorationRepositorio{
-  text-decoration: none;
-  color: #2a7ae4;
-}
-
 .buttonVerDemo {
-  text-decoration: none;
   width: 130px;
   height: 62px;
   padding: 0px 11px;
@@ -428,17 +412,11 @@ p {
 }
 
 .buttonVerDemo:hover {
-  text-decoration: none;
   background-color: #d4e4fa;
   transition: all 0.5s ease;
   transition-delay: 0.2s;
   color: #2a7ae4;
   border: #2a7ae4 1px solid;
-}
-
-#aTextDecorationVerDemo{
-  text-decoration: none;
-  color: white;
 }
 
 .ImgExperiencia {
